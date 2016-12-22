@@ -1,5 +1,5 @@
 $(function(){
-    $('.bootstrap-select').selectpicker({
+    $('.bs-select').selectpicker({
         iconBase: 'fa',
         tickIcon: 'fa-check'
     });

@@ -90,7 +90,7 @@
                 font-family: TradeGothicBold;
             }
             
-            #sortBy{
+            .selectpicker{
                 height: 50px;
             }
             
@@ -124,7 +124,7 @@
                             <h2 class="pull-left titleIcon">Characters</h2>
                         </div>
                         <div class="col-sm-offset-2 col-sm-4">
-                            <select class="form-control bootstrap-select" name="sortBy" id="sortBy">
+                            <select class="form-control bs-select" name="sortBy" id="sortBy">
                                 <option value="">Sort By</option>
                                 <option value="">Sort By1</option>
                                 <option value="">Sort By2</option>
