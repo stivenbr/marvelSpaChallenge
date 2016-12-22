@@ -6,17 +6,31 @@
         <title>Marvel - Developer</title>
         <link rel="stylesheet" href="assets/global/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="assets/global/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css"/>
-        <link rel="stylesheet" href="assets/global/simple-line-icons/css/simple-line-icons.css"/>
+        <link rel="stylesheet" href="assets/global/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/global/simple-line-icons/simple-line-icons.min.css"/>
+        <link rel="stylesheet" href="assets/global/bootstrap-select/bootstrap-select.min.css"/>
+        
+        <!-- Page -->
+        <link rel="stylesheet" href="assets/css/components.css"/>
+        <link rel="stylesheet" href="assets/css/plugins.css "/>
 
         <style type="text/css">
+            
+            /* Font */
+            @font-face {
+                font-family: TradeGothicBold;
+                src: url(assets/fonts/trade-gothic-bold/TradeGothic-Bold.woff);
+            }
+            
+            /* Style */
             body{
                 background-color: #F4F4F4;
             }
 
             .form-control{
                 background-color: #fff;
-                border: 1px solid #e5e5e5;
-                border-radius: 3px;
+                border: 1px solid #DCDCDC;
+                border-radius: 0px;
                 box-shadow: none;
                 color: #333;
                 font-size: 14px;
@@ -54,13 +68,15 @@
             #search input{
                 height: 50px;
                 background-color: #FAFAFA;
+                font-size: 18px;
+                border-radius: 3px;
             }
 
             .form-horizontal .has-feedback .form-control-feedback {
                 color: #b5b5b5;
                 font-size: 22pt;
                 right: 15px;
-                top: 15px;
+                top: 22px;
                 vertical-align: middle;
             }
             
@@ -70,7 +86,12 @@
             
             .titleIcon{
                 margin-top: 3px; 
-                font-weight: bold
+                font-weight: bold;
+                font-family: TradeGothicBold;
+            }
+            
+            #sortBy{
+                height: 50px;
             }
             
         </style>
@@ -102,6 +123,17 @@
                             <img class="img-responsive pull-left " src="assets/icons/characters.png" alt="characters">
                             <h2 class="pull-left titleIcon">Characters</h2>
                         </div>
+                        <div class="col-sm-offset-2 col-sm-4">
+                            <select class="form-control bootstrap-select" name="sortBy" id="sortBy">
+                                <option value="">Sort By</option>
+                                <option value="">Sort By1</option>
+                                <option value="">Sort By2</option>
+                                <option value="">Sort By3</option>
+                                <option value="">Sort By4</option>
+                                <option value="">Sort By5</option>
+                                <option value="">Sort By6</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3 hidden-sm section" style="background-color: #EBEBEB;">
@@ -120,9 +152,10 @@
         <script type="text/javascript" src="assets/global/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="assets/global/angular-1.6.0.min.js"></script>
         <script type="text/javascript" src="assets/global/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/global/bootstrap-select/bootstrap-select.min.js"></script>
 
         <!-- Page -->
-        <script type="text/javascript" src="assets/js/marvel.js"></script>
+        <script type="text/javascript" src="assets/js/jq_marvel.js"></script>
 
     </body>
 </html>
