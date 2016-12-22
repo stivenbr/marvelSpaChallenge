@@ -26,6 +26,10 @@
             body{
                 background-color: #F4F4F4;
             }
+            
+            h1, h2, h3, h4, h5, h6 {
+                font-family: TradeGothicBold;
+            }
 
             .form-control{
                 background-color: #fff;
@@ -94,6 +98,45 @@
                 height: 50px;
             }
             
+            .cantainer-character{
+                background-color: #FFF;
+                padding: 0 15px;
+                display: block;
+                margin: 20px 0px;
+            }
+            
+            .cantainer-character .characterImage{
+                left: -30px;
+                top: -15px;
+                padding: 0px;
+            }
+            
+            .cantainer-character .characterDescription{
+                top: -36px;
+                padding: 0;
+            }
+            
+            .cantainer-character p{
+                font-size: 14px;
+                color: #B9B3B3;
+            }
+            
+            .cantainer-character .characterDescription button{
+                background-color: #EB1E23;
+                color: #FFF;
+                font-weight: bold;
+            }
+            
+            .characterHead{
+                padding: 0 10px;
+                min-height: 260px;
+            }
+            
+            .characterBody{
+                position: relative;
+                top: -30px;
+            }
+            
         </style>
     </head>
     <body>
@@ -134,6 +177,11 @@
                                 <option value="">Sort By6</option>
                             </select>
                         </div>
+                    </div>
+                    <br />
+                    <button type="button" id="clickMe">Click</button>
+                    <div id="container-characters">
+                        
                     </div>
                 </div>
                 <div class="col-md-3 hidden-sm section" style="background-color: #EBEBEB;">
