@@ -102,13 +102,18 @@
                 background-color: #FFF;
                 padding: 0 15px;
                 display: block;
-                margin: 20px 0px;
+                margin: 20px 0px 20px 20px;
             }
             
             .cantainer-character .characterImage{
                 left: -30px;
                 top: -15px;
                 padding: 0px;
+            }
+            
+            .cantainer-character .characterImage img{
+                height: 22rem;
+                width: 24rem;
             }
             
             .cantainer-character .characterDescription{
@@ -135,6 +140,7 @@
             .characterBody{
                 position: relative;
                 top: -30px;
+                min-height: 135px;
             }
             
         </style>
@@ -179,9 +185,7 @@
                         </div>
                     </div>
                     <br />
-                    <button type="button" id="clickMe">Click</button>
                     <div id="container-characters">
-                        
                     </div>
                 </div>
                 <div class="col-md-3 hidden-sm section" style="background-color: #EBEBEB;">
