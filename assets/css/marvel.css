@@ -1,0 +1,208 @@
+
+/* Font */
+@font-face {
+    font-family: TradeGothicBold;
+    src: url(assets/fonts/trade-gothic-bold/TradeGothic-Bold.woff);
+}
+
+/* Style */
+body{
+    background-color: #F4F4F4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: TradeGothicBold;
+}
+
+.form-control{
+    background-color: #fff;
+    border: 1px solid #DCDCDC;
+    border-radius: 0px;
+    box-shadow: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: normal;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+.navbar-default{
+    background-image: inherit;
+    background-color: #2D2727;
+    border: 0px;
+    border-radius: 0px;
+    height: 80px;
+}
+
+#logo{
+    width: 170px;
+}
+
+.navTop{
+    padding-top: 10px; 
+}
+
+#divSearch{
+    padding: 5px;
+}
+
+#divSearch input{
+    height: 50px;
+    background-color: #FAFAFA;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.form-horizontal .has-feedback .form-control-feedback {
+    color: #b5b5b5;
+    font-size: 22pt;
+    right: 15px;
+    top: 22px;
+    vertical-align: middle;
+}
+
+#bodyMarvel{
+    display: flex;
+}
+
+.section{
+    padding-top: 30px;
+}
+
+.titleIcon{
+    margin-top: 3px; 
+    font-weight: bold;
+    font-family: TradeGothicBold;
+}
+
+.selectpicker{
+    height: 50px;
+}
+
+.cantainer-character{
+    background-color: #FFF;
+    padding: 0 15px;
+    display: block;
+    margin: 20px 0px 20px 20px;
+}
+
+.cantainer-character .characterImage{
+    left: -30px;
+    top: -15px;
+    padding: 0px;
+}
+
+.cantainer-character .characterImage img{
+    height: 22rem;
+    width: 24rem;
+}
+
+.cantainer-character .characterDescription{
+    top: -36px;
+    padding: 0;
+}
+
+.cantainer-character p, .cantainer-character a{
+    font-size: 14px;
+    color: #B9B3B3;
+}
+
+.cantainer-character .characterDescription a{
+    background-color: #EB1E23;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.characterHead{
+    padding: 0 10px;
+    min-height: 260px;
+}
+
+.characterBody{
+    position: relative;
+    top: -30px;
+    min-height: 135px;
+}
+
+.btnDelete{
+    position: absolute;
+    right: 0;
+    top: -20px;
+}
+
+/* Modal */
+.modal-backdrop.in{
+    opacity: 0.7 !important;
+}
+
+.modal-dialog {
+    width: 700px;
+}
+
+
+.modal-body{
+    padding: 5px 15px 15px 15px;
+}
+
+.modal-body h2{
+    margin-top: 0px;
+}
+
+.modal-body p{
+    color: #b9b3b3;
+    font-size: 14px;
+}
+
+.modal-footer{
+    display: flex;
+    padding: 0;
+}
+
+.modal-footer button{
+    flex: 1 1 auto;
+    margin: 0 !important;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.modal-footer button:nth-child(1){
+    background-color:  #F0F0F0; 
+    color: #3C3332;
+}
+.modal-footer button:nth-child(1):hover{
+    background-color:  #322827; 
+    color: #EC1D23;
+}
+.modal-footer button:nth-child(2){
+    background-color:  #DCDCDC; 
+    color: #EC1D23;
+}
+
+/* Pagination */
+.pagination > li > a, .pagination > li > span {
+    margin: 0 5px;
+    color: #C5C1C2;
+}
+li [class^="fa-"], li [class^="glyphicon-"], li [class^="icon-"], li [class*=" fa-"], li [class*=" glyphicon-"], li [class*=" icon-"] {
+    width: 1em;
+}
+[class^="fa-"], [class^="glyphicon-"], [class^="icon-"], [class*=" fa-"], [class*=" glyphicon-"], [class*=" icon-"] {
+    font-size: 24px;
+}
+
+/*Pagination Active*/
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+    background-color: #FCFCFC;
+    border-color: #F4F4F4;
+    color: #000;
+}
+
+.light-theme a, .light-theme span {
+    background: #FFF;
+}
