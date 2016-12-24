@@ -14,7 +14,7 @@
         <!-- Page -->
         <link rel="stylesheet" href="assets/css/components.css"/>
         <link rel="stylesheet" href="assets/css/plugins.css "/>
-        
+
         <!-- Page Developer -->
         <link rel="stylesheet" href="assets/css/marvel.css" />
 
@@ -127,4 +127,18 @@
         <script type="text/javascript" src="assets/js/jq_marvel.js"></script>
 
     </body>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <h5>
+                        Grabaility 2016 - Todos los derechos reservados 
+                    </h5>
+                </div>
+                <div class="col-xs-6">
+                    <img src="assets/icons/grability-logo.png" class="img-responsive pull-right" alt="Logo" />
+                </div>
+            </div>
+        </div>
+    </footer>
 </html>

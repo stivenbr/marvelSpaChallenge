@@ -206,3 +206,17 @@ li [class^="fa-"], li [class^="glyphicon-"], li [class^="icon-"], li [class*=" f
 .light-theme a, .light-theme span {
     background: #FFF;
 }
+
+/* Footer */
+.footer{
+    background-color: #2D2727;
+    color: #FFF;
+    
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+
+.footer .row{
+    margin-top: 5px;
+}
